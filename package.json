@@ -16,7 +16,6 @@
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "^18.2.0",
-    "react-elastic-carousel": "^0.11.5",
     "react-multi-carousel": "^2.8.4",
     "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.1",
