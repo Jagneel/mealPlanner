@@ -1,0 +1,41 @@
+@import '../../styles/root.css';
+
+.meal-plan-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    margin: 40px 30px;
+}
+
+.day-column {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.deck-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    min-height: 600px;
+}
+
+.recipe-card-stack {
+    margin-left: -30px;
+}
+
+.card {
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+.card:not(:last-child) {
+    transform: translate(10px, 10px);
+}

@@ -1,0 +1,17 @@
+@import '../../styles/root.css';
+
+.macros-table {
+    min-width: 200px;
+}
+
+.over-limit {
+    color: red;
+}
+
+.near-limit {
+    color: var(--primary-color);
+}
+
+.under-limit {
+    color: var(--secondary-color);
+}

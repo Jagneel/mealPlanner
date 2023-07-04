@@ -1,0 +1,79 @@
+@import '../../styles/root.css';
+
+.user-profile-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 20px;
+}
+
+
+.user-profile-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.user-profile-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-profile-form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.user-profile-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.user-profile-form input,
+.user-profile-form select {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.user-profile-form select>option {
+    color: red;
+}
+
+.user-profile-form button {
+    align-self: center;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.user-profile-form button:hover {
+    background-color: var(--hover-color);
+}
+
+.activityLevelForm {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-self: flex-start;
+}
+
+#activityLevel {
+    width: 100%;
+}

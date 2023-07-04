@@ -1,0 +1,31 @@
+@import '../../styles/root.css';
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.shopping-list {
+    width: 35%;
+    float: right;
+}
+
+.shopping-list h2 {
+    text-align: center;
+}
+
+.shopping-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.shopping-list li {
+    margin-bottom: 10px;
+}

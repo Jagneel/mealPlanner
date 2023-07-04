@@ -1,0 +1,13 @@
+@import '../../styles/root.css';
+
+.header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    width: 100%;
+}
+
+.header-title {
+    font-size: 34px;
+    text-align: center;
+    color: white;
+}

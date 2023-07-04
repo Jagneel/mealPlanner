@@ -1,0 +1,66 @@
+@import '../../styles/root.css';
+
+.dietary-pref {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 20px;
+}
+
+
+.tile {
+    /* Tile styles */
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.6s ease;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile.selected {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.tile:hover {
+    /* Hover styles */
+    transform: scale(1.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.tiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.dietary-pref button {
+    padding: 20px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: transform 1.6s ease;
+    transition: background-color 0.3s ease;
+
+}
+
+.dietary-pref button:hover {
+    background-color: var(--hover-color);
+    transform: scale(1.1);
+    color: white;
+}

@@ -1,0 +1,99 @@
+/* reset some default styles */
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+}
+
+/* set default font styles and sizes */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* define global styles for your project */
+:root {
+    /* colors */
+    --primary-color: #bce08a;
+    --secondary-color: #2B1F75;
+    --hover-color: #0056b3;
+    --text-color: #ffffff;
+
+    /* typography */
+    --heading-font: 'Roboto', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+
+    /* spacing */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+
+    /* breakpoints */
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+}
+
+/* define global styles for specific elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--text-color);
+}
+
+p,
+span,
+a {
+    font-family: var(--body-font);
+    color: var(--text-color);
+}
+
+/* define utility classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-xs {
+    margin-top: var(--spacing-xs);
+}
+
+.mt-sm {
+    margin-top: var(--spacing-sm);
+}
+
+.mt-md {
+    margin-top: var(--spacing-md);
+}
+
+.mt-lg {
+    margin-top: var(--spacing-lg);
+}
+
+.mt-xl {
+    margin-top: var(--spacing-xl);
+}
+
+/* define responsive styles using media queries */
+@media (max-width: var(--breakpoint-sm)) {
+    /* styles for small screens */
+}
+
+@media (min-width: var(--breakpoint-md)) {
+    /* styles for medium screens and larger */
+}
+
+@media (min-width: var(--breakpoint-lg)) {
+    /* styles for large screens and larger */
+}
+
+@media (min-width: var(--breakpoint-xl)) {
+    /* styles for extra-large screens and larger */
+}
