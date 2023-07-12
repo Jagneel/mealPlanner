@@ -17,11 +17,11 @@ interface UserProfile {
 
 const UserProfile: React.FC<UserProfileProps> = ({ onSave }) => {
     const [profile, setProfile] = useState<UserProfile>({
-        firstName: 'Jag',
-        lastName: 'Bhullar',
-        age: 31,
-        weight: 76,
-        height: 188,
+        firstName: '',
+        lastName: '',
+        age: 0,
+        weight: 0,
+        height: 0,
         gender: 'male',
         activityLevel: '3'
     });
